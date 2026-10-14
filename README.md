@@ -3,8 +3,9 @@
 **Moosung Kim, Heetae Kim**  
 Department of Energy Engineering, Korea Institute of Energy Technology (KENTECH)
 
-> *Submitted to New Physics: Sae Mulli, April 2026*  
-> arXiv preprint: *coming soon*
+> Published in *New Physics: Sae Mulli* **76**, 691–704 (2026).<br>
+> Published online August 31, 2026.<br>
+> DOI: [10.3938/NPSM.76.691](https://doi.org/10.3938/NPSM.76.691) · [Journal article](https://www.npsm-kps.org/journal/view.html?uid=8096)
 
 ---
 
@@ -14,7 +15,8 @@ This repository contains the simulation code for the paper:
 
 > **Frequency synchronization analysis of an oscillator-based power grid**  
 > Moosung Kim, Heetae Kim  
-> *New Physics: Sae Mulli* (accepted; final publication details pending)
+> *New Physics: Sae Mulli* **76**, 691–704 (2026).<br>
+> [https://doi.org/10.3938/NPSM.76.691](https://doi.org/10.3938/NPSM.76.691)
 
 We model the Korean power grid (KPG-193, 193 buses) as a network of coupled oscillators governed by the inertial Kuramoto model (equivalently, the swing equation). Kron reduction eliminates load buses, leaving 41 generator nodes as the sole dynamical agents. Under generator trip disturbances, we show that:
 
@@ -28,8 +30,8 @@ We model the Korean power grid (KPG-193, 193 buses) as a network of coupled osci
 ### 1. Install
 
 ```bash
-git clone https://github.com/moosung001/kpg-swing-analysis.git
-cd kpg-swing-analysis
+git clone https://github.com/moosung001/Power-grid-swing-analysis.git
+cd Power-grid-swing-analysis
 pip install -e .
 pip install scipy pandas numpy networkx matplotlib seaborn
 ```
@@ -103,11 +105,12 @@ If you use this code, please cite:
   author  = {Kim, Moosung and Kim, Heetae},
   journal = {New Physics: Sae Mulli},
   year    = {2026},
-  note    = {under review}
+  volume  = {76},
+  pages   = {691--704},
+  doi     = {10.3938/NPSM.76.691},
+  url     = {https://doi.org/10.3938/NPSM.76.691}
 }
 ```
-
-*(This entry will be updated with volume, pages, and DOI upon publication.)*
 
 ## Contact
 
